@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "good morning to all"
-echo "I am learing aws and devops"
+echo "Hello world, I am learing AWS and Devops"
