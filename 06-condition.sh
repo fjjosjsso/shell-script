@@ -6,4 +6,5 @@ then
     echo "You are not in root access kindly used SUDO SU -"
 else
     echo "You are in root access"
-    
+fi
+
