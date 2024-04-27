@@ -7,3 +7,9 @@ yum install mysql -y
 else
     echo "your not in root"
 fi
+if [ $USER_ID -eq 0 ]
+then
+yum install git -y
+else
+    echo "your not in root"
+fi
