@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER_ID=$(id -u)
-if [ $USER_ID -ge 0 ]
+if [ $USER_ID -eq 0 ]
 then
 echo "Your not in root Kindy get access from Root access"
 else
