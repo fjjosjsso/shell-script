@@ -3,7 +3,7 @@
 USER_ID=$(id -u)
 if [ $USER_ID -eq 0 ]
 then
-echo "Your not in root Kindy get access from Root access"
+yum install mysql -y
 else
-    yum install mysql -y
+    echo "your not in root"
 fi
