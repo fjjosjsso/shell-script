@@ -13,3 +13,4 @@ case $choise in
     (g) yum install git -y ;;
     (a) yum install appache -y ;;
     (*) echo "please provide vaild input";;
+esac
