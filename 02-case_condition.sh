@@ -12,4 +12,4 @@ case $choise in
     (m) yum install mysql -y ;;
     (g) yum install git -y ;;
     (a) yum install appache -y ;;
-    (*) echo "please provide vaild input "
+    (*) echo "please provide vaild input";;
