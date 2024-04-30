@@ -6,7 +6,6 @@ then
     echo "Get root access"
     exit 1
 else
-then
 echo "Your in root access"
 fi
 yum install mysql -y
@@ -23,7 +22,6 @@ then
     echo "Get root access"
     exit 1
 else
-then
 echo "Your in root access"
 fi
 
