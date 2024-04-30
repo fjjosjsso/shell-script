@@ -18,11 +18,11 @@ then
 else
         echo "Your are at root access"
 fi
-yum install mysql -y
-validate $? "Installing Mysql "
-yum install postfix -y
-validate $? "installing postfix"
-yum install nginx -y
-validate $? "installing nginx"
+yum remove mysql -y
+validate $? "removing Mysql "
+yum remove postfix -y
+validate $? "removing postfix"
+yum remove nginx -y
+validate $? "removing nginx"
 
 
