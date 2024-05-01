@@ -1,10 +1,10 @@
 #!/bin/bash
 
 USER_ID=$(id -u)
-R=$(\e[31m)
-G=$(\e[32m)
-P=$(\e[35m)
-N=$(\e[0m)
+R="\e[31m"
+G="\e[32m"
+P="\e[35m"
+N="\e[0m"
 validate () {
     if [ $1 -ne 0 ]
     then
