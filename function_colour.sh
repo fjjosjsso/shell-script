@@ -23,8 +23,8 @@ if [ $USER_ID -ne 0 ]
 fi
 
 yum install nginx -y
-validate $2 "Installing NGINX"
+validate $? "Installing NGINX"
 yum install mysql -y
-validate $2 "Installing MYSQL"
+validate $? "Installing MYSQL"
 yum install postfix -y
-validate $2 "Installing POSTFIX"
+validate $? "Installing POSTFIX"
